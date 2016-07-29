@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63E2E58B1D34184D00E960F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E58A1D34184D00E960F7 /* AppDelegate.swift */; };
+		63E2E58D1D34184D00E960F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E58C1D34184D00E960F7 /* ViewController.swift */; };
+		63E2E5901D34184D00E960F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E58E1D34184D00E960F7 /* Main.storyboard */; };
+		63E2E5921D34184D00E960F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E5911D34184D00E960F7 /* Assets.xcassets */; };
+		63E2E5951D34184D00E960F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E2E5931D34184D00E960F7 /* LaunchScreen.storyboard */; };
+		63E2E59D1D34186F00E960F7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E2E59C1D34186F00E960F7 /* AVFoundation.framework */; };
+		63E2E59F1D34202100E960F7 /* BuscarMedicamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E59E1D34202100E960F7 /* BuscarMedicamento.swift */; };
+		63E2E5A11D3420A400E960F7 /* Medicamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E2E5A01D3420A400E960F7 /* Medicamento.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63E2E5871D34184D00E960F7 /* BuscaRemedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuscaRemedio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E2E58A1D34184D00E960F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E2E58C1D34184D00E960F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63E2E58F1D34184D00E960F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E2E5911D34184D00E960F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E2E5941D34184D00E960F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E2E5961D34184D00E960F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E2E59C1D34186F00E960F7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		63E2E59E1D34202100E960F7 /* BuscarMedicamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuscarMedicamento.swift; sourceTree = "<group>"; };
+		63E2E5A01D3420A400E960F7 /* Medicamento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Medicamento.swift; path = ../Medicamento.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E2E5841D34184D00E960F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E59D1D34186F00E960F7 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63E2E57E1D34184D00E960F7 = {
+			isa = PBXGroup;
+			children = (
+				63E2E59C1D34186F00E960F7 /* AVFoundation.framework */,
+				63E2E5891D34184D00E960F7 /* BuscaRemedio */,
+				63E2E5881D34184D00E960F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63E2E5881D34184D00E960F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E5871D34184D00E960F7 /* BuscaRemedio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E2E5891D34184D00E960F7 /* BuscaRemedio */ = {
+			isa = PBXGroup;
+			children = (
+				63E2E5A01D3420A400E960F7 /* Medicamento.swift */,
+				63E2E58A1D34184D00E960F7 /* AppDelegate.swift */,
+				63E2E58C1D34184D00E960F7 /* ViewController.swift */,
+				63E2E58E1D34184D00E960F7 /* Main.storyboard */,
+				63E2E59E1D34202100E960F7 /* BuscarMedicamento.swift */,
+				63E2E5911D34184D00E960F7 /* Assets.xcassets */,
+				63E2E5931D34184D00E960F7 /* LaunchScreen.storyboard */,
+				63E2E5961D34184D00E960F7 /* Info.plist */,
+			);
+			path = BuscaRemedio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E2E5861D34184D00E960F7 /* BuscaRemedio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E2E5991D34184D00E960F7 /* Build configuration list for PBXNativeTarget "BuscaRemedio" */;
+			buildPhases = (
+				63E2E5831D34184D00E960F7 /* Sources */,
+				63E2E5841D34184D00E960F7 /* Frameworks */,
+				63E2E5851D34184D00E960F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuscaRemedio;
+			productName = BuscaRemedio;
+			productReference = 63E2E5871D34184D00E960F7 /* BuscaRemedio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E2E57F1D34184D00E960F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kleiton Batista";
+				TargetAttributes = {
+					63E2E5861D34184D00E960F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2NP85M2W3W;
+					};
+				};
+			};
+			buildConfigurationList = 63E2E5821D34184D00E960F7 /* Build configuration list for PBXProject "BuscaRemedio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E2E57E1D34184D00E960F7;
+			productRefGroup = 63E2E5881D34184D00E960F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E2E5861D34184D00E960F7 /* BuscaRemedio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E2E5851D34184D00E960F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E5951D34184D00E960F7 /* LaunchScreen.storyboard in Resources */,
+				63E2E5921D34184D00E960F7 /* Assets.xcassets in Resources */,
+				63E2E5901D34184D00E960F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E2E5831D34184D00E960F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E2E58D1D34184D00E960F7 /* ViewController.swift in Sources */,
+				63E2E58B1D34184D00E960F7 /* AppDelegate.swift in Sources */,
+				63E2E5A11D3420A400E960F7 /* Medicamento.swift in Sources */,
+				63E2E59F1D34202100E960F7 /* BuscarMedicamento.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63E2E58E1D34184D00E960F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E2E58F1D34184D00E960F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E2E5931D34184D00E960F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E2E5941D34184D00E960F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E2E5971D34184D00E960F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E2E5981D34184D00E960F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E2E59A1D34184D00E960F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BuscaRemedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = batista.kleiton.BuscaRemedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63E2E59B1D34184D00E960F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BuscaRemedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = batista.kleiton.BuscaRemedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E2E5821D34184D00E960F7 /* Build configuration list for PBXProject "BuscaRemedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E2E5971D34184D00E960F7 /* Debug */,
+				63E2E5981D34184D00E960F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E2E5991D34184D00E960F7 /* Build configuration list for PBXNativeTarget "BuscaRemedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E2E59A1D34184D00E960F7 /* Debug */,
+				63E2E59B1D34184D00E960F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E2E57F1D34184D00E960F7 /* Project object */;
+}
