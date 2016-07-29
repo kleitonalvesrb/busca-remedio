@@ -23,7 +23,7 @@ class BuscarMedicamento: UIViewController {
         buscarMedicamentoNet(Medicamento.barCode)
 
         
-        
+        //commit
     }
     
     override func viewDidLoad() {
